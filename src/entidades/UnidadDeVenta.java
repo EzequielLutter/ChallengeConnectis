@@ -2,7 +2,7 @@ package entidades;
 
 public enum UnidadDeVenta {
 
-    KILO("kilo");
+    KILO(" kilo ");
     private String nombre;
 
     private UnidadDeVenta(String nombre) {
