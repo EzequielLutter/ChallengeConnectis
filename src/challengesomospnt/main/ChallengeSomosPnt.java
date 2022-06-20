@@ -1,6 +1,5 @@
 package challengesomospnt.main;
 
-
 import entidades.Fruta;
 import entidades.Gaseosa;
 import entidades.Producto;
@@ -16,8 +15,8 @@ public class ChallengeSomosPnt {
 
         List<Producto> productos = cargarProductos();
 
-        productos.forEach(p->System.out.println(p));
-        
+        productos.forEach(p -> System.out.println(p));
+
         System.out.println("=============================");
 
         Collections.sort(productos);
@@ -27,8 +26,7 @@ public class ChallengeSomosPnt {
         System.out.println("Producto mas barato: " + productos.get(0).getNombre());
     }
 
-    
-    private static List<Producto> cargarProductos() {
+        private static List<Producto> cargarProductos() {
         List<Producto> productos = new ArrayList();
         Producto cocaCola1 = new Gaseosa("Coca-Cola Zero", 1.5, 20);
         Producto cocaCola = new Gaseosa("Coca-Cola", 1.5, 18);
