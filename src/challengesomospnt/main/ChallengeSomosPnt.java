@@ -17,7 +17,7 @@ public class ChallengeSomosPnt {
 
         productos.forEach(p -> System.out.println(p));
 
-        System.out.println("=============================");
+        System.out.println("============================");
 
         Collections.sort(productos);
         System.out.println("Producto mas caro: " + productos.get(0).getNombre());
